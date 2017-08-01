@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoE.ERS.Automation", "MoE.ERS.Automation\MoE.ERS.Automation.csproj", "{E34B8CF6-2D70-4F7C-948E-949FEFF6A9DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CC87E23-B6D7-41D2-A742-96C092F0F67F} = {8CC87E23-B6D7-41D2-A742-96C092F0F67F}
+		{739DC6B0-E54F-493D-BC09-9A78B9C9777B} = {739DC6B0-E54F-493D-BC09-9A78B9C9777B}
+		{96AD43ED-23D7-4F0D-BD8A-9BDE5C668AFE} = {96AD43ED-23D7-4F0D-BD8A-9BDE5C668AFE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoE.ERS.Automation.Utils", "MoE.ERS.Automation.Utils\MoE.ERS.Automation.Utils.csproj", "{96AD43ED-23D7-4F0D-BD8A-9BDE5C668AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoE.ERS.Automation.TestRunner", "MoE.ERS.Automation.TestRunner\MoE.ERS.Automation.TestRunner.csproj", "{3AB9A1B8-20FB-4A58-9222-4292CE17BB56}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E34B8CF6-2D70-4F7C-948E-949FEFF6A9DA} = {E34B8CF6-2D70-4F7C-948E-949FEFF6A9DA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoE.ERS.Automation.Entities", "MoE.ERS.Automation.Entities\MoE.ERS.Automation.Entities.csproj", "{8CC87E23-B6D7-41D2-A742-96C092F0F67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoE.ERS.Automation.DataSource", "MoE.ERS.Automation.DataSource\MoE.ERS.Automation.DataSource.csproj", "{739DC6B0-E54F-493D-BC09-9A78B9C9777B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E34B8CF6-2D70-4F7C-948E-949FEFF6A9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34B8CF6-2D70-4F7C-948E-949FEFF6A9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34B8CF6-2D70-4F7C-948E-949FEFF6A9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34B8CF6-2D70-4F7C-948E-949FEFF6A9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AD43ED-23D7-4F0D-BD8A-9BDE5C668AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AD43ED-23D7-4F0D-BD8A-9BDE5C668AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AD43ED-23D7-4F0D-BD8A-9BDE5C668AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AD43ED-23D7-4F0D-BD8A-9BDE5C668AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB9A1B8-20FB-4A58-9222-4292CE17BB56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB9A1B8-20FB-4A58-9222-4292CE17BB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB9A1B8-20FB-4A58-9222-4292CE17BB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB9A1B8-20FB-4A58-9222-4292CE17BB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC87E23-B6D7-41D2-A742-96C092F0F67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC87E23-B6D7-41D2-A742-96C092F0F67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC87E23-B6D7-41D2-A742-96C092F0F67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC87E23-B6D7-41D2-A742-96C092F0F67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739DC6B0-E54F-493D-BC09-9A78B9C9777B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739DC6B0-E54F-493D-BC09-9A78B9C9777B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739DC6B0-E54F-493D-BC09-9A78B9C9777B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739DC6B0-E54F-493D-BC09-9A78B9C9777B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
